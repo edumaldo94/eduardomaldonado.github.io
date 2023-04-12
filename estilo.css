@@ -1,0 +1,101 @@
+
+body{
+    margin: 0;
+    
+}
+.fotmitadfondo{
+    background-image: url(../eduardomaldonado.github.io/fotos/banner.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    height: 50px;
+   
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.199);
+    box-shadow: inset 1px 0px 5px 1px ;
+    align-items: center;
+    padding: 20px;
+    }
+    .empresa{
+        color: rgba(226, 179, 77, 0.925);
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    }
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    
+  height: 80px;
+  margin-left: -30px;
+
+}
+
+nav a:hover{
+    color: rgb(255, 238, 0);
+}
+.cabe{
+    
+    font-weight: 600;
+    padding: 50px;
+    text-decoration:none;
+    color: rgba(226, 179, 77, 0.925);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main1{
+    
+}
+.fotFondo{
+    font-size: 32px;
+    color: #00000075; 
+    align-items: center;
+    padding: 20px;
+}
+.fot1{
+    width:300px;
+    height:300px;
+    border-radius:160px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.849), 0 6px 20px 0 rgba(0, 0, 0, 0.849);
+    border:1px solid #110c0ce8;
+}
+.fotBienv{
+    width: 800px;
+    height: 302px;
+    
+    border-radius: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.849), 0 6px 20px 0 rgba(0, 0, 0, 0.849);
+    
+}
+.textFotBienv{
+    
+
+}
+.sect1{
+    background-color: rgba(0, 0, 0, 0.178);
+    margin: 0;
+ background-size: cover;
+}
+
+.fotLimpieza{
+    height: 180px;
+    margin-left: 15px;
+    
+}
+
+.Bien{
+    display: flexbox;
+   text-align: center;
+   color: rgba(255, 255, 255, 0.719);
+   justify-content: space-between;
+   font-size: 50px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.parServi{
+    margin-left: 50px;
+    margin-top: 20px;
+}

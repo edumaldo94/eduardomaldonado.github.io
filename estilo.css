@@ -1,101 +1,725 @@
+body {
 
-body{
-    margin: 0;
-    
+  margin: 0;
+ 
+  
 }
-.fotmitadfondo{
-    background-image: url(../eduardomaldonado.github.io/fotos/banner.jpg);
-    background-position:center;
-    background-repeat: no-repeat;
+.fotmitadfondo {
+  background-image: url(../eduardomaldonado.github.io/fotos/banner.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
-header{
-    display: flex;
-    height: 50px;
-   
-    justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.199);
-    box-shadow: inset 1px 0px 5px 1px ;
-    align-items: center;
-    padding: 20px;
-    }
-    .empresa{
-        color: rgba(226, 179, 77, 0.925);
-       font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
-    }
-.logo{
-    display: flex;
-    align-items: center;
+header {
+  display: flex;
+  width: 1309px;
+  height: 50px;
+ 
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.527);
+  
+  align-items: center;
+  padding: 20px;
+}
+.empresa {
+  text-shadow: 2px 4px 3px #000000;
+  color: rgba(226, 179, 77, 0.925);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  
 }
 
-.logo-img{
-    
+.logo-img {
   height: 80px;
   margin-left: -30px;
-
+ 
 }
 
-nav a:hover{
-    color: rgb(255, 238, 0);
+nav a:hover {
+  color: rgb(255, 238, 0);
 }
-.cabe{
-    
-    font-weight: 600;
-    padding: 50px;
-    text-decoration:none;
-    color: rgba(226, 179, 77, 0.925);
+.cabe {
+  text-shadow: 2px 4px 3px #000000;
+  font-weight: 600;
+
+  padding: 50px;
+  text-decoration: none;
+  color: rgba(226, 179, 77, 0.925);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fotFondo {
+  font-size: 32px;
+  color: #00000075;
+  align-items: center;
+  padding: 20px;
+  
+}
+.fot1 {
+  width: 300px;
+  height: 300px;
+
+  border-radius: 160px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.849),
+    0 6px 20px 0 rgba(0, 0, 0, 0.849);
+  border: 1px solid #110c0ce8;
+
+ position: relative;
+ top: -40px;
+ left: -40px;
+float: left;
+  
+  
+  
+}
+.Bien {
+  text-align: center;
+  
+  color: rgba(255, 255, 255, 0.788);
+  justify-content: space-between;
+  font-size: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.589);
+}
+
+.items {
+  
+  color: rgb(32, 32, 32);
+  background-color: rgba(179, 179, 179, 0.733);
+width: 700px;
+
+  position: relative;
+ 
+left: 0px;
+ top: 0px;
+
+  padding: 40px;
+  border-radius: 160px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562);
+ 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  font-size: 30px;
+}
+.listItems {
+  padding: 10px;
+  position: relative;
+  left: 50px;
+}
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+.sect1 {
+  
+
+ background-color: rgba(0, 0, 0, 0.527);
+ width: 849px;
+
+ height: 500px;
+ 
+  
+}
+
+aside{
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.527);
+  height: 500px;
+  position: relative;
+  top: 50px;
+  right: 0;
+  top: auto;
+
+  text-align: left;
+  padding: 10;
+  
+
+}
+.lisAnside{
+
+color: rgba(255, 255, 255, 0.89);
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-left: 30px;
+padding-top: 100px;
+font-size: 25px;
+}
+.serGen{
+    color: rgb(230, 230, 230);
+  background-color: rgba(179, 179, 179, 0);
+  position: relative;
+  top: 80px;
+  text-shadow: 2px 2px 5px rgba(7, 7, 7, 0.562);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.main1{
-    
-}
-.fotFondo{
-    font-size: 32px;
-    color: #00000075; 
-    align-items: center;
-    padding: 20px;
-}
-.fot1{
-    width:300px;
-    height:300px;
-    border-radius:160px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.849), 0 6px 20px 0 rgba(0, 0, 0, 0.849);
-    border:1px solid #110c0ce8;
-}
-.fotBienv{
-    width: 800px;
-    height: 302px;
-    
-    border-radius: 150px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.849), 0 6px 20px 0 rgba(0, 0, 0, 0.849);
-    
-}
-.textFotBienv{
-    
+    font-size: 35px;
+    text-align: center;
 
 }
-.sect1{
-    background-color: rgba(0, 0, 0, 0.178);
+
+
+.sect2{
+
+width: auto;
+
+height: 1250px;
+
+background-image: linear-gradient(to top, rgb(243, 231, 233) 0%, rgba(83, 139, 223, 0.486) 99%, rgba(83, 139, 223, 0.233) 100%);
+  
+}
+.h1Sect2{
+  padding-left: 70px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #12707C;
+    
+    
+}
+
+.pSect2 {
+
+ color: rgba(0, 0, 0, 0.678);
+ box-shadow: 2px 1px 5px   #12707C;
+    line-height: 30px;
+    padding: 20px 50px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  .divsect2{
+  margin: auto;
+    background-color: #b8b8b8c4;
+ 
+ 
+   width: 1000px;
+   height: 750px;
+    position: relative;
+    
+    top: 70px;
+    bottom: 60px;
+    
+    
+border: 1px solid rgba(0, 0, 0, 0.212);
+    
+  }
+  .h3Sect2{
+text-align: center;
+font-family: Tahoma, sans-serif;
+padding-bottom: 10px;
+font-size: 30px;
+color: #180404c9;
+
+text-shadow: 2px 4px 3px #12707c5e;
+  }
+  .fotLimpieza {
+    height: 300px;
+
+    margin-left: 20px;
+    position: relative;
+    left: 17px;
+  }
+
+  .ultimo{
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+   height: 200px;
+   bottom: 0px;
+   position: relative;
+   bottom: 0;
+   width: auto;
+
+
+ 
+  }
+
+  .ulFoot{
+font-size: 20px;
+line-height: 40px;
+padding: 5px;
+position: relative;
+left: 70px;
+top: -100px;
+color: rgba(255, 255, 249, 0.692);
+text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.733);
+list-style-type: ' ';
+width: 300px;
+margin: 0;
+height: 150px;
+
+  }
+  .tel{
+    position: relative;
+  top: -55px;
+   left: 35px;
+  }
+.ubc{
+position: relative;
+top: -15px;
+ left: 0px;
+}
+
+.email{
+  position: relative;
+  top: 65px;
+  left: -35px;
+}
+.h2foot{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 35px;
+  text-align: center;
+  position: relative;
+  width: 500px;
+  top: 50px;
+  left: 580px;
+  margin: 0px;
+ 
+color: rgba(255, 255, 249, 0.692);
+ 
+}
+
+
+@media screen and (max-width: 840px){
+  .cabe {
+      
+    font-size: 15px;
+      display: flex;
+      flex-direction: column;
+  line-height: 25px;
+      
+      }
+      nav a:hover {
+        color: rgb(255, 238, 0);
+      }
+
+    .fot1{
+       
+        position: relative;
+        left: -40px;
+        top: -41px;
+
+    }
+    .items{
+       text-align: center;
+        font-size: 20px;
+       
+       background-color: rgba(255, 255, 255, 0.527);
+width: 222px;
+    } 
+    .listItems {
+        text-align: left;
+        padding: 10px;
+        position: relative;
+        left: 20px;
+       
+      }
+      .sect2{
+
+        width: auto;
+        
+        height: 1520px;
+            background-color: rgba(54, 7, 7, 0);
+            
+          
+        }
+      .divsect2{
+        
+          background-color: #b8b8b8c4;
+       
+       
+         width: auto;
+         height: auto;
+          position: relative;
+        
+  justify-content: center;
+  align-items: center;
+          top: 70px;
+          bottom: 5px;
+          
+         
+      border: 1px solid rgba(0, 0, 0, 0.212);
+          
+        }
+        
+        .h3Sect2{
+          padding: 0;
+          font-size: 10px;
+        }
+        .fotLimpieza {
+          flex-direction: column;
+width: auto;
+          height: auto;
+      
+        
+        }
+
+        .contenedorFoot{
+          position: relative;
+          bottom: 30px;
+        }
+        .h2foot{
+          margin: 0;
+       width: 380px;
+          font-size: 16px;
+          position: relative;
+         left: -10px;
+          top: 25px;
+          
+        }
+
+        .ultimo{
+          background-color: #15353a;
+         height: 200px;
+         bottom: 0px;
+         position: relative;
+         bottom: 0;
+         width: auto;
+         box-shadow: rgba(123, 79, 173, 0.39) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.705) 0px 18px 36px -18px inset;
+      
+       
+        }
+      
+        .ulFoot{
+      font-size: 20px;
+      line-height: 40px;
+      padding: 5px;
+      position: relative;
+      left: 70px;
+      top: -60px;
+      color: rgba(255, 255, 249, 0.692);
+      text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.733);
+      list-style-type: ' ';
+      width: 300px;
+      margin: 0;
+      height: 150px;
+      
+        }
+        .tel{
+          position: relative;
+        top: -15px;
+         left: 35px;
+        }
+      .ubc{
+      position: relative;
+      top: 23px;
+       left: 0px;
+      }
+      
+      .email{
+        position: relative;
+        top: 105px;
+        left: -35px;
+      }
+      .h2foot{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: 20px;
+        text-align: center;
+        position: relative;
+        width: 300px;
+        top: 70px;
+        left: 350px;
+        margin: 0px;
+        text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.733);
+      
+      color: rgba(236, 236, 235, 0.692);
+       
+      }
+
+
+
+/* --contacto--  */
+      .imgObra{
+        width: 20px;
+        height: 2000px;
+        position: relative;
+        left: -40px;
+        right: 0;
+        top: 0px;
+        
+      
+    margin-left: 0px;
+    margin-top: 0px;
+       
+      }
+}
+
+
+@media  screen and (max-width: 1365px) {
+  .fotmitadfondo{
+    flex-direction: column;
+    background-position: auto;
+  }
+
+    .container {
+      flex-direction: column;
+    }
+    header{
+      width: auto;
+    }
+    .empresa {
+      text-shadow: 2px 4px 3px #000000;
+      font-size: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    a.cabe{
+      margin: 0;
+  border: 0;
+  padding:0;
+    }
+    nav a:hover {
+      color: rgb(255, 238, 0);
+    }
+    .sect1{
+        width: auto;
+        height: auto;
+        
+        
+    }
+    .lisAnside{
+      
+      padding-left: 50px;
+padding-top: 20px;
+font-size: 20px;
+    }
+    .serGen{
+     
+      position: relative;
+      top: 0px;
+      font-size: 30px;
+      
+    }
+    .h1Sect2{
+      padding-left: 30px;
+      font-size: 50px;
+     
+    }
+    aside {
+      
+        height: auto;
+        width: auto;
+        position: static;
+        top: auto;
+      }
+      .sect2{
+        height: 500px;
+
+      }
+      .divsect2{
+        width: auto;
+      
+      }
+      .fotLimpieza{
+        width: 350px;
+      }
+      .h3Sect2{
+        font-size: 20px;
+      }
+
+      .ultimo{
+        background-color: #15353a;
+       height: 200px;
+       bottom: 0px;
+       position: relative;
+       bottom: 0;
+       top: 1200px;
+       width: auto;
+       box-shadow: rgba(123, 79, 173, 0.39) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.705) 0px 18px 36px -18px inset;
+    
+     
+      }
+    
+      .ulFoot{
+    font-size: 20px;
+    line-height: 40px;
+    padding: 5px;
+    position: relative;
+    left: 70px;
+    top: -20px;
+    color: rgba(255, 255, 249, 0.692);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.733);
+    list-style-type: ' ';
+    width: 300px;
     margin: 0;
- background-size: cover;
-}
-
-.fotLimpieza{
-    height: 180px;
-    margin-left: 15px;
+    height: 150px;
     
-}
+      }
+      .tel{
+        position: relative;
+      top: 25px;
+       left: 35px;
+      }
+    .ubc{
+    position: relative;
+    top: 65px;
+     left: 0px;
+    }
+    
+    .email{
+      position: relative;
+      top: 145px;
+      left: -35px;
+    }
+      .h2foot{
+       display: none;
+       
+      }
 
-.Bien{
-    display: flexbox;
-   text-align: center;
-   color: rgba(255, 255, 255, 0.719);
-   justify-content: space-between;
-   font-size: 50px;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+
+/*contacto*/
+      .imgObra{
+        width: 200px;
+        height: 200px;
+    
+      
+    
+       
+      }
+    
+  }
+
+
+  .bodyCont{
+    
+    background-image: linear-gradient(45deg, rgba(23, 26, 26, 0.486) 0%, rgba(52, 14, 61, 0.651) 100%),url(fotos/mini2.jpg);;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+.contForm{
+
+  position: relative;
+  top: 100px;
+
 }
-.parServi{
-    margin-left: 50px;
-    margin-top: 20px;
+.sectContacto{
+  height: 570px;
 }
+  form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 400px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #08080c71;
+    border-radius: 1em;
+    background-color: #413f358f;
+    color: hsl(0, 33%, 97%);
+    font-size: 20px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.733);
+   
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    
+  }
+  
+  form li + li {
+    margin-top: 1em;
+    
+  }
+  
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+  }
+  
+  input,
+  textarea {
+    /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+    font: 15px Verdana, Geneva, Tahoma, sans-serif;
+
+    /* Tamaño uniforme del campo de texto */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Hacer coincidir los bordes del campo del formulario */
+    border: 1px solid #0a09097c;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Destacado adicional para elementos que tienen el cursor */
+    border-color: #0202026c;
+  }
+  
+  textarea {
+    /* Alinear los campos de texto multilínea con sus etiquetas */
+    vertical-align: top;
+    background-color: #ffffffc7;
+    /* Proporcionar espacio para escribir texto */
+    height: 200px;
+    font-size: 15px;
+  }
+  
+  .button {
+    /* Alinear los botones con los campos de texto */
+    padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+  
+  }
+  
+  button {
+      margin-left: 100px;
+  }
+
+  .sectObra{
+   
+    background-image: linear-gradient(to right, rgb(58, 181, 176) 0%, rgb(61, 153, 190) 31%, rgb(86, 49, 122) 100%);
+   
+   
+     width: auto;
+     height: auto;
+    margin: 0;
+     padding: 0;
+      
+  border: 1px solid rgba(0, 0, 0, 0.212);
+  }
+
+  .h2Ob{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    padding: 70px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(237, 234, 240, 0.856);
+    text-shadow: 1px 2px 2px rgba(101, 1, 194, 0.856);
+  }
+
+  .imgObra{
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+border:10px solid rgba(101, 1, 194, 0.856);
+	border-bottom:0px;
+    position: relative;
+    left: 70px;
+    top: 0px;
+    
+  
+margin-left: 20px;
+margin-top: 20px;
+  }
+ .hdrObra{
+background: linear-gradient(to bottom, rgba(255, 255, 255, 0.226) 0%, rgba(0, 0, 0, 0.459) 100%),
+ radial-gradient(at top center, rgba(255, 255, 255, 0.199) 0%, rgba(0, 0, 0, 0.459) 120%), url(fotos/banner.jpg);
+ background-blend-mode: multiply,multiply;
+ }

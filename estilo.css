@@ -494,7 +494,7 @@ width: auto;
         .tel{
           position: relative;
         top: -15px;
-         left: 35px;
+         left: 25px;
         }
       .ubc{
       position: relative;
@@ -614,8 +614,8 @@ font-size: 20px;
       
     }
     .h1Sect2{
-      padding-left: 30px;
-      font-size: 50px;
+      padding-left: 10px;
+      font-size: 40px;
      
     }
     aside {
@@ -634,7 +634,8 @@ font-size: 20px;
       
       }
       .fotLimpieza{
-        width: 350px;
+        height: 150px;
+        width: auto;
       }
       .h3Sect2{
         font-size: 20px;
@@ -658,12 +659,12 @@ font-size: 20px;
     line-height: 40px;
     padding: 5px;
     position: relative;
-    left: 70px;
+    left: 50px;
     top: -20px;
     color: rgba(255, 255, 249, 0.692);
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.733);
     list-style-type: ' ';
-    width: 300px;
+    width: auto;
     margin: 0;
     height: 150px;
     
@@ -671,18 +672,18 @@ font-size: 20px;
       .tel{
         position: relative;
       top: 25px;
-       left: 35px;
+       left: 15px;
       }
     .ubc{
     position: relative;
     top: 65px;
-     left: 0px;
+     left: -20px;
     }
     
     .email{
       position: relative;
       top: 145px;
-      left: -35px;
+      left: -55px;
     }
       .h2foot{
        display: none;

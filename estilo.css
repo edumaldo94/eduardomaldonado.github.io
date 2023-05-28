@@ -365,6 +365,15 @@ color: rgba(255, 255, 249, 0.692);
 
 
 @media screen and (max-width: 840px){
+  
+  .close{
+
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    cursor: pointer;
+  }
  .flechDer{
   position: absolute;
   right: 475px;
@@ -636,6 +645,7 @@ font-size: 20px;
       .fotLimpieza{
         height: 150px;
         width: auto;
+        
       }
       .h3Sect2{
         font-size: 20px;
@@ -833,3 +843,38 @@ border-color: red;
    margin: 0;
   
    }
+   .baseDeDato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+display: none;
+    width: auto;
+
+   }
+   .contenedor{
+    font-family: arial, sans-serif;
+    background-color: #fffffffd;
+    width: auto;
+display: none;
+    height: auto;
+text-align: center;
+font-size: 15px;
+   color: #15353a;
+   border-radius: 25px;
+ 
+
+   }
+   table {
+    font-family: arial, sans-serif;
+    
+    width: 100%;
+    border-radius: 25px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border-radius: 25px;
+  }
+   

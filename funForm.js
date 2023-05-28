@@ -13,7 +13,7 @@ var regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
      var nomYape = /^[a-zA-Z\s]+$/;
      
 // Agregar un evento de escucha al formulario cuando se envíe
-formulario.addEventListener("submit", e => {
+document.getElementById("formulario").addEventListener("submit", e => {
      e.preventDefault();
      
 
@@ -56,7 +56,7 @@ formulario.addEventListener("submit", e => {
   }
   
  
-  if (!mensajeInput.value == "") {
+  if (mensajeInput.value == "") {
 
     avisoMsj.innerHTML= "Por favor, ingrese un mensaje"
     mensajeInput.className='alertForm'
@@ -68,6 +68,15 @@ formulario.addEventListener("submit", e => {
   }
   // Si todos los campos son válidos, el formulario se enviará
   alert("El formulario se ha enviado correctamente");
+  const nombre = nombreInput.value;
+  const apellido = apellidoInput.value;
+  const email = emailInput.value;
+  const mensaje = mensajeInput.value;
+  const divi=document.querySelector('.contenedor')
+  const padredivi=document.querySelector('.baseDeDato')
+divi.style.display = "block";
+padredivi.style.display="block"
+  agregarUsuario(nombre, apellido, email, mensaje);
 
 
 });
@@ -136,3 +145,25 @@ nombreInput.addEventListener("click", function(){
           
                        }
                     })
+
+                    function agregarUsuario(nombre, apellido, email, mensaje) {
+                      
+                      
+                      const tabla = document.getElementById("tablaUsuario");
+                    
+                      const fila = tabla.insertRow();
+                    
+                      const celdaNombre = fila.insertCell();
+                      celdaNombre.textContent = nombre;
+                    
+                      const celdaApellido = fila.insertCell();
+                      celdaApellido.textContent = apellido;
+                    
+                      const celdaEmail = fila.insertCell();
+                      celdaEmail.textContent = email;
+                    
+                      const celdaMensaje = fila.insertCell();
+                      celdaMensaje.textContent = mensaje;
+
+
+                    }
